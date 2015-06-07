@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'entyporegular';
+    src: url('Entypo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, #wrap {
+    height: 100%;
+}
+
+body {
+    background: rgb(34, 36, 42);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Menus */
+ul.menu {
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+/* Main wrapper */
+#wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/* Header */
+header {
+    height: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+/* Window Controls */
+#window-controls {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Grid */
+#grid {
+    background-color: red;
+    flex: 1;
+    padding: 10px;
+}
+
+/* Bottom Controls */
+#bottom-controls {
+    height: 20px;
+    padding: 10px;
+}

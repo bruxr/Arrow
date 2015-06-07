@@ -1,0 +1,22 @@
+{
+  "name": "Arrow",
+  "version": "0.1.0",
+  "authors": [
+    "brux <brux.romuar@gmail.com>"
+  ],
+  "description": "Your friendly neighborhood game launcher",
+  "main": "arrow.js",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.1",
+    "lodash": "~3.9.3"
+  }
+}

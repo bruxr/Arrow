@@ -1,0 +1,24 @@
+{
+  "name": "Arrow",
+  "version": "0.1.0",
+  "description": "Your friendly neighborhood game launcher",
+  "main": "arrow.html",
+  "scripts": {
+    "start": "nw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brux <brux.romuar@gmail.com>",
+  "license": "ISC",
+  "window": {
+    "title": "Arrow",
+    "width": 960,
+    "height": 540,
+    "position": "center",
+    "min_width": 960,
+    "min_height": 540,
+    "frame": false
+  },
+  "dependencies": {
+    "nw": "^0.12.2"
+  }
+}
