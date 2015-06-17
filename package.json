@@ -2,23 +2,18 @@
   "name": "Arrow",
   "version": "0.1.0",
   "description": "Your friendly neighborhood game launcher",
-  "main": "arrow.html",
+  "main": "app.js",
   "scripts": {
-    "start": "nw",
+    "start": "/Applications/Electron.app/Contents/MacOS/Electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "brux <brux.romuar@gmail.com>",
   "license": "ISC",
-  "window": {
-    "title": "Arrow",
-    "width": 960,
-    "height": 540,
-    "position": "center",
-    "min_width": 960,
-    "min_height": 540,
-    "frame": false
-  },
   "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-sass": "^2.0.1",
     "nw": "^0.12.2"
   }
 }

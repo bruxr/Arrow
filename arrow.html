@@ -2,36 +2,41 @@
 <html>
 <head>
     <title>Arrow</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <div id="wrap">
         <header>
             A
+            <!--
             <div id="window-controls">
                 <ul class="menu">
                     <li><a href="#" id="min">MIN</a></li>
                     <li><a href="#" id="close">CLOSE</a></li>
                 </ul>
             </div>
+            -->
         </header>
         <div id="grid">
             aaaa
         </div>
         <nav id="bottom-controls">
             <ul class="menu">
-                <li><a href="#" id="add">Add</a></li>
+                <li><a href="#" id="add" title="Add a game"><i class="fa fa-plus"></i></a></li>
             </ul>
         </nav>
     </div>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script>window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery');</script>
     <script src="bower_components/lodash/lodash.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
 
     <script src="js/arrow.js"></script>
     <script src="js/window.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/ui.js"></script>
 
 </body>
 </html>

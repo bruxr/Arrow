@@ -1,3 +1,11 @@
 var arrow = {};
+var ipc = require('ipc');
 
-require('nw.gui').Window.get().showDevTools();
+ipc.on('request-game-reply', function(args) {
+    var games = [];
+    _.each(args, function(p) {
+        games.push(new arrow.Game({
+            path: p
+        }));
+    });
+});
